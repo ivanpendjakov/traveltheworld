@@ -33,13 +33,13 @@
     "siteFonts": [],
     "versionFirst": "4.7.6",
     "uniqCompNum": 14,
-    "versionPublish": "4.8.6",
+    "versionPublish": "4.8.10",
     "favicon": "@PROJECT_PATH@/assets/images/img-1270-128x85-3.png",
     "noImageResize": "",
     "google-analytics": "",
     "siteUrl": "https://ivanpendjakov.github.io/",
     "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsText": "https://ivanpendjakov.github.io/\n\n\n\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on"
@@ -333,7 +333,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/img-1270-2000x1333.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -979,7 +979,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-9252-2000x1333.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
@@ -1206,6 +1206,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Bosnia and Herzegovina</b>",
+                "active": false
+              },
+              {
+                "tags": "Анимиран",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-7094-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7094-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Bahrain</b>",
                 "active": false
               },
               {
@@ -1486,6 +1499,19 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-7581-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7581-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Kuwait</b>",
+                "active": false
+              },
+              {
+                "tags": "Анимиран",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-6246-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-6246-2000x1333-800x533.jpg",
                 "alt": "",
@@ -1584,6 +1610,19 @@
                 "customStyle1": "display-7",
                 "caption": "<b>Netherlands</b>",
                 "active": false
+              },
+              {
+                "tags": "Анимиран",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-6944-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6944-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Oman</b>",
+                "active": true
               },
               {
                 "tags": "Анимиран",
@@ -1830,7 +1869,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Vietnam</b>",
-                "active": true
+                "active": false
               }
             ]
           }
