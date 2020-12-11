@@ -30,19 +30,31 @@
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
+      }
+    ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 14,
-    "versionPublish": "4.11.5",
+    "versionPublish": "5.2.0",
     "favicon": "@PROJECT_PATH@/assets/images/img-1270-128x85-3.png",
-    "noImageResize": "",
+    "noImageResize": null,
     "google-analytics": "",
     "siteUrl": "https://ivanpendjakov.github.io/",
     "screenshot": "screenshot.png",
     "robotsText": "https://ivanpendjakov.github.io/robots.txt\n\n\n\n\n\n\n\n\n\n\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "modified": "2020-01-26T18:09:44.102Z",
+    "": "vhig3iheg3",
+    "cookiesAlert": false,
+    "gdpr": false,
+    "imageResize": false,
+    "publishChangesOnly": true
   },
   "pages": {
     "index.html": {
@@ -52,7 +64,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/img-7227-2000x1333.jpg"
       },
       "components": [
         {
@@ -327,7 +340,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": true,
+            "slides__autoplay": "true",
             "slides__autoplayInterval": 4000,
             "slides__showBullets": true,
             "slides": [
@@ -417,7 +430,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">ЗА WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">ЗА MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-6347-2000x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-6347.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -876,7 +889,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">ЗА WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">ЗА MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-6470-2000x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-6470.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -944,7 +957,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">ЗА WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">ЗА MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-7266-2000x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-7266.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -1240,7 +1253,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#c1c1c1\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-text mbr-gallery-show-bullets></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#c1c1c1\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_anchor": "gallery1-h",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -1285,6 +1298,19 @@
                 "active": false
               },
               {
+                "tags": "Анимиран",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-7094-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7094-2000x1333-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Bahrain</b>",
+                "active": false
+              },
+              {
                 "tags": "Криейтив",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -1308,19 +1334,6 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Bosnia and Herzegovina</b>",
-                "active": false
-              },
-              {
-                "tags": "Анимиран",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-7094-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-7094-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<b>Bahrain</b>",
                 "active": false
               },
               {
@@ -1367,12 +1380,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-8189-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-8189-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-4363-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-4363-2000x1333-800x533.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>Cuba</b>",
+                "caption": "<b>Croatia</b>",
                 "active": false
               },
               {
@@ -1380,12 +1393,12 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-4363-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-4363-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-8189-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-8189-2000x1333-800x533.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>Croatia</b>",
+                "caption": "<b>Cuba</b>",
                 "active": false
               },
               {
@@ -1471,8 +1484,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-6336-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-6336-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-6336.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6336-800x533.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -1627,6 +1640,19 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-7541.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-7541-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Liechtenstein",
+                "active": false
+              },
+              {
+                "tags": "Анимиран",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-5798-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-5798-2000x1333-800x533.jpg",
                 "alt": "",
@@ -1673,6 +1699,19 @@
                 "customStyle1": "display-7",
                 "caption": "<b>Mexico</b>",
                 "active": false
+              },
+              {
+                "tags": "Анимиран",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-3808.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3808-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Monaco</b>",
+                "active": true
               },
               {
                 "tags": "Анимиран",
@@ -1737,7 +1776,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Norway</b>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Анимиран",
@@ -1926,6 +1965,19 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-6984.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-6984-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Switzerland</b>",
+                "active": false
+              },
+              {
+                "tags": "Анимиран",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-8927-2000x1333.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-8927-2000x1333-800x533.jpg",
                 "alt": "",
@@ -1997,6 +2049,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>USA</b>",
+                "active": false
+              },
+              {
+                "tags": "Анимиран",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-4549.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-4549-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Vatican City</b>",
                 "active": false
               },
               {
